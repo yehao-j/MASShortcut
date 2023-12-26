@@ -1,0 +1,16 @@
+PODS:
+  - MASShortcut (2.4.1)
+
+DEPENDENCIES:
+  - MASShortcut (from `../../MASShortcut`)
+
+EXTERNAL SOURCES:
+  MASShortcut:
+    :path: "../../MASShortcut"
+
+SPEC CHECKSUMS:
+  MASShortcut: cfd3972c269a509943d1b1e6e804fbc75171344b
+
+PODFILE CHECKSUM: 91eb2bb72c244475a38bc21f906f2bbcceac6fc5
+
+COCOAPODS: 1.14.3
