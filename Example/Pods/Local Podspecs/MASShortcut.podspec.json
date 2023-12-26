@@ -9,7 +9,7 @@
     "Tomáš Znamenáček": "tomas.znamenacek@gmail.com"
   },
   "platforms": {
-    "osx": "10.10"
+    "osx": "10.15"
   },
   "source": {
     "git": "https://github.com/shpakovski/MASShortcut.git",

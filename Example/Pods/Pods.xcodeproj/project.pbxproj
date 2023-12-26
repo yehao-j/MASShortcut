@@ -549,24 +549,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0E31EA2B30BC52DF4A2F0D229C8479A6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8C4BAE5D1E595EAB9F3034A404E3598 /* MASShortcut.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MASShortcut";
-				IBSC_MODULE = MASShortcut;
-				INFOPLIST_FILE = "Target Support Files/MASShortcut/ResourceBundle-MASShortcut-MASShortcut-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_NAME = MASShortcut;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		5607522B196501B14655AA04C06E49DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -633,7 +615,7 @@
 			};
 			name = Debug;
 		};
-		70DF5F2C24DA4EE23FFF0007E352915D /* Debug */ = {
+		5F11C01F268A828B70E9AABA6B9318F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 699A46FC0AFED6536E1E43F80148FAF3 /* MASShortcut.debug.xcconfig */;
 			buildSettings = {
@@ -643,7 +625,7 @@
 				IBSC_MODULE = MASShortcut;
 				INFOPLIST_FILE = "Target Support Files/MASShortcut/ResourceBundle-MASShortcut-MASShortcut-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_NAME = MASShortcut;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -651,7 +633,7 @@
 			};
 			name = Debug;
 		};
-		8D1FFA1AD61D4F6CE5D00DDA43AE0E6C /* Release */ = {
+		72552A93ED050229DFF9653F6053A532 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F8C4BAE5D1E595EAB9F3034A404E3598 /* MASShortcut.release.xcconfig */;
 			buildSettings = {
@@ -674,7 +656,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MODULEMAP_FILE = "Target Support Files/MASShortcut/MASShortcut.modulemap";
 				PRODUCT_MODULE_NAME = MASShortcut;
 				PRODUCT_NAME = MASShortcut;
@@ -749,7 +731,7 @@
 			};
 			name = Release;
 		};
-		D364B67AC5BC18158BCD262617D52570 /* Debug */ = {
+		A4BF13CC5096A4513B1DB6EAC39A9673 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 699A46FC0AFED6536E1E43F80148FAF3 /* MASShortcut.debug.xcconfig */;
 			buildSettings = {
@@ -772,7 +754,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MODULEMAP_FILE = "Target Support Files/MASShortcut/MASShortcut.modulemap";
 				PRODUCT_MODULE_NAME = MASShortcut;
 				PRODUCT_NAME = MASShortcut;
@@ -784,6 +766,24 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		BEA1B6496C18B1558F621989574B8BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8C4BAE5D1E595EAB9F3034A404E3598 /* MASShortcut.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MASShortcut";
+				IBSC_MODULE = MASShortcut;
+				INFOPLIST_FILE = "Target Support Files/MASShortcut/ResourceBundle-MASShortcut-MASShortcut-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = MASShortcut;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		E6346D6AEE98633BF33B502D54F23B00 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -883,8 +883,8 @@
 		964B327A5366F8631BEC6E67A4322AB7 /* Build configuration list for PBXNativeTarget "MASShortcut-MASShortcut" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				70DF5F2C24DA4EE23FFF0007E352915D /* Debug */,
-				0E31EA2B30BC52DF4A2F0D229C8479A6 /* Release */,
+				5F11C01F268A828B70E9AABA6B9318F1 /* Debug */,
+				BEA1B6496C18B1558F621989574B8BE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -892,8 +892,8 @@
 		B403FB9F522FA364C89D7B126182DA76 /* Build configuration list for PBXNativeTarget "MASShortcut" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D364B67AC5BC18158BCD262617D52570 /* Debug */,
-				8D1FFA1AD61D4F6CE5D00DDA43AE0E6C /* Release */,
+				A4BF13CC5096A4513B1DB6EAC39A9673 /* Debug */,
+				72552A93ED050229DFF9653F6053A532 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
